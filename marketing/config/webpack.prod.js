@@ -7,7 +7,8 @@ const packageJson = require('../package.json');
 const devConfig = {
     mode: 'production',
     output: {
-        filename: '[name].[contenthash].js'
+        filename: '[name].[contenthash].js',
+        publicPath: '/marketing/latest/'
     },
     stats: {
         children: true
