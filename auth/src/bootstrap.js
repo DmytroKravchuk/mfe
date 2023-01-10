@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createMemoryHistory, createBrowserHistory } from 'history';
+import { createMemoryHistory, createBrowserHistory } from 'react-router-dom/node_modules/history';
 import App from './App';
 
 // Mount function to start up the app
